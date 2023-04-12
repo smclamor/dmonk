@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'app_drawer.dart';
 import 'text_layout.dart';
 
 class BasicScreen extends StatelessWidget {
+  const BasicScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,10 +29,7 @@ class BasicScreen extends StatelessWidget {
           TextLayout(),
         ],
       ),
-      drawer: Drawer(
-          child: Container(
-              color: Color.fromARGB(255, 162, 138, 85),
-              child: Center(child: Text("OO AA")))),
+      drawer: myDrawer(context),
     );
   }
 }
