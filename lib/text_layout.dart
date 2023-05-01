@@ -16,22 +16,15 @@ class TextLayout extends StatelessWidget {
             style: TextStyle(fontSize: 12),
           ),
           Divider(),
-          RichText(
-            text: TextSpan(
-              text: "Welcome to D'Monk!",
-              style: TextStyle(fontSize: 22, color: Colors.black),
-              children: <TextSpan>[
-                TextSpan(
-                  text:
-                      '\nthe ultimate mobile app for all monkey lovers out there!',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Color.fromARGB(255, 220, 229, 47),
-                  ),
-                ),
-              ],
+         Container(
+          decoration: BoxDecoration(
+           color: Color.fromARGB(255, 101, 110, 122),
+           image: const DecorationImage(
+             image: AssetImage('../assets/dmonk_logo.png'),
+             fit: BoxFit.cover,
             ),
           ),
+         ),
           Text(
             "D'monK is the perfect app for anyone who wants to learn about the different types and species of monkeys. Our app provides a ",
             style: GoogleFonts.kanit(fontSize: 15),

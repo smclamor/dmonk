@@ -17,23 +17,19 @@ Widget myDrawer(BuildContext context) {
           child: Text(''),
         ),
         ListTile(
-          leading: Icon(Icons.book),
-          title: const Text('Directory'),
+          leading: Icon(Icons.home),
+          title: const Text('Home'),
           onTap: () {
-            // Update the state of the app
-            // ...
-            // Then close the drawer
-            Navigator.pop(context);
+             Navigator.pop(context);
+            Navigator.pushNamed(context, '/home');
           },
         ),
         ListTile(
-          leading: Icon(Icons.lightbulb),
-          title: const Text('Learn More'),
+          leading: Icon(Icons.book),
+          title: const Text('About Us'),
           onTap: () {
-            // Update the state of the app
-            // ...
-            // Then close the drawer
             Navigator.pop(context);
+           Navigator.pushNamed(context, '/aboutus');
           },
         ),
         ListTile(

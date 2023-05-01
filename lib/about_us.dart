@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'app_drawer.dart';
 import 'text_layout.dart';
 
-class BasicScreen extends StatelessWidget {
-  const BasicScreen({super.key});
+class AboutUs extends StatelessWidget {
+  const AboutUs({super.key});
 
   @override
   Widget build(BuildContext context) {
