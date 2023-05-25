@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "588412319862",
+    "project_id": "d-monk",
+    "storage_bucket": "d-monk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588412319862:android:73aaddf9c1d161a8860757",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588412319862-jhflbet13jseqv1va8l7u8so15tj16bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2F3Gzy7yi0jDvztGQfXnE1AcHLspx60c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588412319862-jhflbet13jseqv1va8l7u8so15tj16bi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

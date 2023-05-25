@@ -1,0 +1,23 @@
+// Balinas & Clamor BSIT 3-ST 
+
+Application Model
+
+1. Name: Spider Monkey
+   - Description: Spider Monkeys are known for their long limbs and prehensile tails, which they use to swing and climb through the trees.
+   - Weight: Varies, typically between 8 to 10 kilograms
+   - Height: Varies, typically between 35 to 63 centimeters
+
+2. Name: Capuchin Monkey
+   - Description: Capuchin Monkeys are intelligent and social monkeys known for their dexterous hands and problem-solving abilities.
+   - Weight: Varies, typically between 2.5 to 4 kilograms
+   - Height: Varies, typically between 30 to 56 centimeters
+
+3. Name: Mandrill
+   - Description: Mandrills are colorful monkeys with distinct facial markings. They are the largest species of monkey and live in the rainforests of Central Africa.
+   - Weight: Varies, typically between 20 to 35 kilograms
+   - Height: Varies, typically between 50 to 75 centimeters
+
+4. Name: Howler Monkey
+   - Description: Howler Monkeys are known for their loud and distinctive howling calls, which can be heard over long distances in the rainforest.
+   - Weight: Varies, typically between 4 to 10 kilograms
+   - Height: Varies, typically between 56 to 92 centimeters
